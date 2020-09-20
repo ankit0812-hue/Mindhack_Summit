@@ -1,14 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo2.png" type="image/png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <meta name="theme-color" content="#0E1125" />
+    <link rel="apple-touch-icon" href="./images/logo2.png" />
+    <link rel="manifest" href="./manifest.json" />
     <title>Mindhack Summit - 2020</title>
 </head>
+
 <body>
+
+    <header id="home" class="col-md-12">
+        <div class="header-top-section container">
+            <img src="./images/logo2.png" alt="Mindhack Summit Logo" />
+            <a href="#tickets" class="btn header-top-btn">Get Tickets</a>
+        </div>
+        <div class="header-mid-section container">
+            <div class="header-mid-left d-none d-sm-none d-md-block">
+                <p>10 - 13</p>
+                <p>Oct</p>
+            </div>
+            <div class="header-mid-right">
+                <p>Mindhack!</p>
+                <p>Summit 2020</p>
+            </div>
+        </div>
+    </header>
+
+    <nav id="desktop-nav" class="container-fluid sticky-top">
+        <div class="container no-pl">
+            <div id="nav-logo">
+                <img src="./images/logo2.png" alt="Mindhack Summit" />
+                <p>Mindhack! <br />Summit 2020</p>
+            </div>
+            <div class="container no-pl" id="nav-container-main">
+                <ul>
+                    <li id="overview-nav"><a href="#overview">Overview</a></li>
+                    <li id="schedule-nav"><a href="#schedule">Schedule</a></li>
+                    <li id="speakers-nav"><a href="#speakers">Speakers</a></li>
+                    <li id="tickets-nav"><a href="#tickets">Tickets</a></li>
+                    <li id="venu-nav"><a href="#venu">Venu</a></li>
+                    <li id="team-nav"><a href="#team">Team</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mobile-nav" class="col-12 mobile-nav">
+        <div class="mobile-menu active-m-menu" id="overview-m-nav">
+            <a href="#overview"><i class="fa fa-search"></i></a>
+            <a href="#overview">Overview</a>
+        </div>
+        <div class="mobile-menu" id="schedule-m-nav">
+            <a href="#schedule"><i class="fa fa-calendar"></i></a>
+            <a href="#schedule">Schedule</a>
+        </div>
+        <div class="mobile-menu" id="speakers-m-nav">
+            <a href="#speakers"><i class="fa fa-user-tie"></i></a>
+            <a href="#speakers">Speakers</a>
+        </div>
+        <div class="mobile-menu" id="tickets-m-nav">
+            <a href="#tickets"><i class="fa fa-ticket-alt"></i></a>
+            <a href="#tickets">Tickets</a>
+        </div>
+        <div class="mobile-menu" id="venu-m-nav">
+            <a href="#venu"><i class="fa fa-map-marker"></i></a>
+            <a href="#venu">Venu</a>
+        </div>
+        <div class="mobile-menu" id="team-m-nav">
+            <a href="#team"><i class="fa fa-users"></i></a>
+            <a href="#team">Team</a>
+        </div>
+    </div>
+
+    <section id="overview">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="icon-container col-10 col-md-3 order-1">
+                        <p class="slide-back-image-left">Our Mission</p>
+                    </div>
+                    <div class="content-container col-10 col-md-4 order-2">
+                        <p class="slide-content">The key idea of this extravaganza is to get more students and
+                            enthusiast involved in one of the most revolutionizing technologies of our time, AI and
+                            bring with them innovation and abolish the idea that AI is only for Grads/ Researchers.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="icon-container col-10 col-md-4 order-1">
+                        <p class="slide-clipper">A Little Learning Is Dangerous.</p>
+                    </div>
+                    <div class="content-container col-10 col-md-4 order-2">
+                        <p class="slide-content">..drink deep or taste not the Pierian spring. MindHack! Summit is
+                            brought to you by a team of AI enthusiasts in collaboration with the AI Leaders who have
+                            leveraged it to create out-of-the box technologies that have a positive impact in the
+                            society.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content-container col-10 col-md-4 order-md-1 order-2">
+                        <p class="slide-content">We believe Artificial Intelligence is not just a few lines of code, but
+                            an artform altogether. Our Mission is change one s perspective on AI and the magic behind
+                            it. The MindHack! Summit aims to bring one of the finest AI practitioners who have used
+                            unconventional methods to build technologies that changed the world.</p>
+                    </div>
+                    <div class="icon-container col-10 col-md-3 order-md-2 order-1">
+                        <p class="slide-back-image-right">Our Vision</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <div class="timer-section">
+            <p class="timer-head">Event starts in</p>
+            <div class="col-md-8 timer-content-section">
+                <div class="timer-pattern">
+                    <p class="time-count" id="day">32</p>
+                    <p class="time-label">Days</p>
+                </div>
+                <div class="timer-pattern">
+                    <p class="time-colon">:</p>
+                </div>
+                <div class="timer-pattern">
+                    <p class="time-count" id="hrs">00</p>
+                    <p class="time-label">Hrs</p>
+                </div>
+                <div class="timer-pattern">
+                    <p class="time-colon">:</p>
+                </div>
+                <div class="timer-pattern">
+                    <p class="time-count" id="mins">00</p>
+                    <p class="time-label">Mins</p>
+                </div>
+                <div class="timer-pattern">
+                    <p class="time-colon">:</p>
+                </div>
+                <div class="timer-pattern">
+                    <p class="time-count" id="secs">00</p>
+                    <p class="time-label">Secs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="ps-timeline-sec">
+        <div class="container">
+            <ol class="ps-timeline">
+                <li>
+                    <div class="ps-bot d-flex flex-column">
+                        <p class="ps-bot-head ps-timeline-head order-1">Day 1</p>
+                        <p class="order-2">..drink deep or taste not the Pierian spring. MindHack! Summit is brought to
+                            you by a team of AI enthusiasts in collaboration with the AI Leaders who have leveraged it
+                            to create out-of-the box technologies that have a positive impact in the society.</p>
+                    </div>
+                    <span class="ps-sp-top"></span>
+                </li>
+                <li>
+                    <div class="ps-top d-flex flex-column">
+                        <p class="order-2 order-md-1">..drink deep or taste not the Pierian spring. MindHack! Summit is
+                            brought to you by a team of AI enthusiasts in collaboration with the AI Leaders who have
+                            leveraged it to create out-of-the box technologies that have a positive impact in the
+                            society.</p>
+                        <p class="ps-top-head ps-timeline-head order-1 order-md-2">Day 2</p>
+                    </div>
+                    <span class="ps-sp-bot"></span>
+                </li>
+                <li>
+                    <div class="ps-bot d-flex flex-column">
+                        <p class="ps-bot-head ps-timeline-head order-1">Day 3</p>
+                        <p class="order-2">..drink deep or taste not the Pierian spring. MindHack! Summit is brought to
+                            you by a team of AI enthusiasts in collaboration with the AI Leaders who have leveraged it
+                            to create out-of-the box technologies that have a positive impact in the society.</p>
+                    </div>
+                    <span class="ps-sp-top"></span>
+                </li>
+                <li>
+                    <div class="ps-top d-flex flex-column">
+                        <p class="order-2 order-md-1">..drink deep or taste not the Pierian spring. MindHack! Summit is
+                            brought to you by a team of AI enthusiasts in collaboration with the AI Leaders who have
+                            leveraged it to create out-of-the box technologies that have a positive impact in the
+                            society.</p>
+                        <p class="ps-top-head ps-timeline-head order-1 order-md-2">Day 4</p>
+                    </div>
+                    <span class="ps-sp-bot"></span>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="speakers" class="container-fluid speakers-container">
+        <p class="speaker-section-heading">Meet the Mindhackers!</p>
+        <div class="container speaker-image-cards">
+            <div class="row image-rows">
+                <div class="col-md-3 col-sm-6 col-12 text-center speaker">
+                    <img class="img-fluid speaker-image" src="./images/ben 1.png" alt="speaker">
+                    <p class="speaker-name">Ben Taylor</p>
+                    <p class="speaker-position">Chief AI Evangelist<br>Data Robot</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 text-center speaker">
+                    <img class="img-fluid speaker-image" src="./images/louis 1.png" alt="speaker">
+                    <p class="speaker-name">Louis Owen</p>
+                    <p class="speaker-position">Data Science Consultant<br>The World Bank</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 text-center speaker">
+                    <img class="img-fluid speaker-image" src="./images/mo 1.png" alt="speaker">
+                    <p class="speaker-name">Mo Rebaie</p>
+                    <p class="speaker-position">Mentor<br>deeplearning.ai</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 text-center speaker">
+                    <img class="img-fluid speaker-image" src="./images/thom 1.png" alt="speaker">
+                    <p class="speaker-name">Thom Ives</p>
+                    <p class="speaker-position">Lead Data Scientist<br>UL Prospector</p>
+                </div>
+            </div>
+            <div class="row image-rows">
+                <div class="col-md-3 col-sm-6 col-12 text-center speaker">
+                    <img class="img-fluid speaker-image" src="./images/jeroen 1.png" alt="speaker">
+                    <p class="speaker-name">Jeroen Van der Most</p>
+                    <p class="speaker-position">AI Artist</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 text-center speaker">
+                    <img class="img-fluid speaker-image" src="./images/vincent 1.png" alt="speaker">
+                    <h4 class="speaker-name">Vincent Warmerdam</h4>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 text-center speaker">
+                    <img class="img-fluid speaker-image" src="./images/guiseppe 1.png" alt="speaker">
+                    <p class="speaker-name">Giuseppe Bonaccorso</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 text-center speaker">
+                    <img class="img-fluid speaker-image" src="./images/connor 1.png" alt="speaker">
+                    <p class="speaker-name">Connor Leahy</p>
+                </div>
+            </div>
+            <div class="row image-rows">
+                <div class="col-md-3 col-sm-6 col-12 text-center speaker">
+                    <img class="img-fluid speaker-image" src="./images/merve 1.png" alt="speaker">
+                    <p class="speaker-name">Merve Noyan</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 text-center speaker">
+                    <img class="img-fluid speaker-image" src="./images/thomas 1.png" alt="speaker">
+                    <p class="speaker-name">Thomas Wolf</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 text-center speaker">
+                    <img class="img-fluid speaker-image" src="./images/michael 1.png" alt="speaker">
+                    <p class="speaker-name">Michael Bronstein</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 text-center speaker">
+                    <img class="img-fluid speaker-image" src="./images/sayak 1.png" alt="speaker">
+                    <p class="speaker-name">Sayak Paul</p>
+                </div>
+            </div>
+            <div class="row image-rows">
+                <div class="col-md-3 col-sm-6 col-12 text-center speaker">
+                    <img class="img-fluid speaker-image" src="./images/andrey 1.png" alt="speaker">
+                    <p class="speaker-name">Andrey Lukyanenko</p>
+                </div>
+            </div>
+        </div>
+        <div class="conatiner speaker-button text-center">
+            <button type="button" class="btn btn-primary register-speaker">Become a speaker</button>
+        </div>
+    </section>
+
+    <section id="tickets" class="container-fluid ticket-section">
+        <div class="container text-center ticket-section-content pt-3">
+            <p class="ticket-title">Tickets</p>
+            <p class="ticket-content">The summit is completely virtual and free for everyone around the globe.<br> Go on
+                and grab your free ticket now!</p>
+        </div>
+        <div class="container ticket-button text-center">
+            <button type="button" class="btn btn-primary register-ticket">Tickets out soon</button>
+        </div>
+    </section>
+
+    <section id="venu" class="event-details">
+        <div class="container initial-details">
+            <div class="row">
+                <div class="col-md-3 col-sm-2 col-12 discord-logo text-center">
+                    <div class="rectangle-discord">
+                        <img class="polygon" src="images/Polygon 1.png">
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-2 col-12">
+                    <p class="conf-details">A conference is all about learning, exploring and networking, isn't it?<br>
+                        During pandemic and quarantine, we did not want the attendees to miss the excitment and
+                        experience of attending a Summit. Through discord, you can join various channels, explore rooms
+                        for discussion and meet fellow enthusiasts around the world, Virtually.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container divider">
+            <!-- divides both the sections-->
+        </div>
+        <div class="container onboard-details text-center">
+            <p class="onboard-title">Getting Onboard</p>
+        </div>
+        <div class="container onboard-points">
+            <div class="row">
+                <div class="col-md-9 points col-sm-2 col-12">
+                    <ol>
+                        <li>Book your free pass.</li>
+                        <li>You will recieve a confirmation mail with your virtual pass along with the Discord server
+                            invite.</li>
+                        <li>Ensure your bookmark and save your invite.</li>
+                        <li>Plan well in advance which talks you’re interested in.</li>
+                        <li>Join the Discord server one day before the event.</li>
+                        <li>Explore and network with fellow enthusiasts!</li>
+                    </ol>
+                </div>
+                <div class="col-md-3 col-sm-2 col-12 text-center globe-image">
+                    <img class="ellipse" src="images/Ellipse 16.png">
+                    <img class="vector1" src="images/Vector1.png">
+                    <img class="vector2" src="images/Vector2.png">
+                    <img class="vector3" src="images/Vector3.png">
+                    <img class="vector4" src="images/vector 3.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="configurations">
+            <div class="container">
+                <div class="col-10 col-md-10">
+                    <p>We promise that MindHack! Summit gives a totally new experience with great insights and practices in and around AI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="container-fluid sponsors">
+        <div class="container sponsor-title text-center">
+            <p class="sponsor-text">Our Sponsors</p>
+        </div>
+        <div class="container sponsor-logo">
+            <div class="row">
+                <div class="col-md-6 col-sm-2 col-12 text-center vitap d-flex align-center justify-content-center">
+                    <img src="images/vitap.png">
+                </div>
+                <div class="col-md-6 col-sm-2 col-12 text-center air d-flex align-center justify-content-center">
+                    <img src="images/air.png">
+                </div>
+            </div>
+        </div>
+        <div class="container sponsor-button text-center">
+            <button type="button" class="btn btn-primary register-sponsor">Become a sponsor</button>
+        </div>
+        <div class="container divider">
+            <!-- divides both the sections-->
+        </div>
+        <div class="container social-media-icons text-center">
+            <a href=""><img src="images/twitter.png"></a>
+            <a href=""><img src="images/linkedin.png"></a>
+            <a href=""><img src="images/instagram.png"></a>
+            <a href=""><img src="images/facebook.png"></a>
+        </div>
+    </section>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -20,6 +386,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/menu.js"></script>
     <script src="./js/app.js"></script>
 </body>
 

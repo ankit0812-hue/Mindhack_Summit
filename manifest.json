@@ -1,0 +1,16 @@
+{
+    "short_name": "MS 2020",
+    "name": "Mindhack Summit 2020",
+    "icons": [
+        {
+            "src": "./images/app.png",
+            "type": "image/png",
+            "sizes": "144x144",
+            "purpose": "any maskable"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#0E1125",
+    "background_color": "#0E1125"
+}
