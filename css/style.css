@@ -1,3 +1,7 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .speakers-container {
     background: #0E1125;
     height: auto;
@@ -44,14 +48,215 @@
     margin-top: 3em;
 }
 
+.ticket-section {
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('../images/wave.png');
+    font-family: Source Sans Pro;
+    height: auto;
+}
+.ticket-title , .ticket-content {
+    color: rgba(229, 229, 229, 1);
+
+}
+.ticket-title {
+    font-size: 60px;
+}
+.ticket-content {
+    font-size: 20px;
+}
+
+.ticket-button {
+    margin-top: 4em;
+}
+.register-ticket {
+    background-color: #2D94AB;
+    border-radius: 70px;
+    color: rgba(16,16,16,1);
+    font-size: 20px;
+    padding: 0 30px 0 30px;
+    height: 60px;
+    width: 260px;
+    border: none;
+    margin-bottom: 3em;
+}
+.register-ticket:hover {
+    background-color: #2d94ab;
+    color: rgba(16,16,16,1);
+}
+
+.event-details {
+    background: #0E1125;
+    height: auto;
+    font-family: Source Sans Pro;
+}
+.initial-details {
+    padding-top: 4em;
+}
+.rectangle-discord {
+    width: 245px;
+    height: 218px;
+    top: 80px;
+    background: #712F72;
+    border-radius: 8.14685px;
+    background-image: url('../images/discord.png');
+    background-repeat: no-repeat;
+    background-position: 2em;
+}
+.polygon {
+    position: absolute;
+    width: 40.61px;
+    height: 215.03px;
+    left: 265px;
+    top: -50px;
+    transform: rotate(64.28deg);
+}
+
+.conf-details {
+    color: #e6e6e6;
+    font-size: 20px;
+    padding-left: 7em;
+}
+
+.divider {
+    margin-top: 5em;
+    border: 2px solid #C600E6;
+    width: 60%;
+}
+.onboard-details {
+    margin-top: 3em;
+}
+.onboard-title {
+    color: rgba(229, 229, 229, 1);
+    font-size: 50px;
+
+}
+.onboard-points {
+    margin-top: 3em;
+    padding-bottom: 5em;
+}
+ol {
+    color: #E6E6E6;
+    font-size: 20px;
+    line-height: 40px;
+}
+.globe-image {
+    padding-top: 3em;
+}
+.ellipse {
+    top: 30px;
+}
+.vector1 {
+    position: absolute;
+    left: 120px;
+    top: 110px;
+}
+.vector2 {
+    position: absolute;
+    left: -45px;
+    top: 120px;
+}
+.vector3 {
+    position: absolute;
+    left: 25px;
+    top: 50px;
+}
+.vector4 {
+    position: absolute;
+    left: 120px;
+    top: 30px;
+}
+
+.conf-theme {
+    background: linear-gradient(90deg, #702841 0%, #270627 100%);
+    font-family: Source Sans Pro;
+    height:20%;
+
+}
+.theme-mssg {
+    color: rgba(248, 248, 248, 1);
+    font-size: 25px;
+    padding-top: 7em;
+}
+.theme-vector {
+    position: absolute;
+    top: 220px;
+    left: 200px;
+}
+.sponsors {
+    background-color: #0E1125;
+    font-family: Source Sans Pro;
+    height: auto;
+}
+.sponsor-title {
+    padding-top: 3em;
+}
+.sponsor-text {
+    color: #e6e6e6;
+    font-size: 50px;
+}
+.sponsor-logo {
+    padding-top: 3em;
+}
+.sponsor-button {
+    padding-top: 7em;
+}
+.register-sponsor {
+    background-color: #2D94AB;
+    border-radius: 70px;
+    color: rgba(16,16,16,1);
+    font-size: 20px;
+    padding: 0 30px 0 30px;
+    height: 60px;
+    width: 260px;
+    border: none;
+    margin-bottom: 3em;
+}
+.register-sponsor:hover {
+    background-color: #2d94ab;
+    color: rgba(16,16,16,1);
+
+}
+.social-media-icons {
+    display: flex;
+    padding-top: 3em;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    padding-bottom: 4em;
+}
 
 @media (max-width: 600px)
 {
+
     .image-rows {
         margin-top: 0em;
     }
     .speaker {
         margin-top: 2em;
+    }
+    .conf-details {
+        padding-left: 0px;
+        padding-top: 3em;
+    }
+    .divider {
+        width: 90%;
+    }
+    .vector1 {
+        left: 180px;
+    }
+    .vector2 {
+        left: 10px;
+    }
+    .vector3 {
+        left: 90px;
+    }
+    .vector4 {
+        left: 180px;
+    }
+    .social-media-icons {
+        width: 80%;
+    }
+    .air {
+        padding-top: 3em;
     }
 }
 
